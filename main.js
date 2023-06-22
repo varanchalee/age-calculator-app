@@ -173,10 +173,18 @@ $(document).ready(function () {
     return birthday;
   }
 
-  function showDate(date, month, year) {
-    $("span#isYear").html(year);
-    $("span#isMonth").html(month);
-    $("span#isDay").html(date);
+function showDate(date, month, year) {
+    console.log(date, month, year);
+
+    if (isNaN(date) || isNaN(month) || isNaN(year)) {
+      $("span#isYear").html("- -");
+      $("span#isMonth").html("- -");
+      $("span#isDay").html("- -");
+    } else {
+      $("span#isYear").html(year);
+      $("span#isMonth").html(month);
+      $("span#isDay").html(date);
+    }
   }
 
   buttonElem.click(function () {
