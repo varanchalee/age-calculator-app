@@ -46,7 +46,7 @@ div.container form{
     display: flex;
     width: 80%;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 div.hr-box{
@@ -55,7 +55,7 @@ div.hr-box{
 }
 
 hr{
-    border: 1px solid var(--light-grey);
+    border: 0.5px solid var(--light-grey);
     background-color: var(--light-grey);
 }
 
