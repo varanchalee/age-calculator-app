@@ -162,7 +162,7 @@ img{
 
 .show span{
     color: var(--purple);
-    padding-right: 2px;
+    padding-right: 4px;
 }
 
 .form-error{
@@ -210,6 +210,8 @@ img{
         line-height: 1.2;
     }
 }
+
+
 
 
 
